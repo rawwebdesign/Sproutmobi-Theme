@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title><?php wp_title(''); ?></title>
+    <!-- Update your html tag to include the itemscope and itemtype attributes -->
+    <html itemscope itemtype="http://schema.org/Product">
+
+    <!-- Add the following three tags inside head -->
+    <meta itemprop="name" content="Make a Mobile Website with SproutMobi">
+    <meta itemprop="description" content="Make a mobile website with SproutMobi's DIY Mobile Website Builder.">
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -76,7 +82,11 @@
               echo " class='activepage' ";
             }
             ?>><a href="/about/">About</a></li>
-            <li <?php if(is_page( 'tour' )){
+            <li <?php if( is_home() || (is_single())){
+              echo " class='activepage' ";
+            }
+            ?>><a href="/blog/">Blog</a></li>
+            <li <?php if(is_page( 'tour' )) {
               echo " class='activepage' ";
             }
             ?>><a href="/tour/">Take a Tour</a></li>

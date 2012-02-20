@@ -12,6 +12,8 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -400,4 +402,10 @@ div#sidebar div.title {
 
 .widget {
 	padding-bottom: 20px;
+}
+
+div.textwidget ul.sharebuttons, div.textwidget ul.sharebuttons li {
+	padding-bottom: 5px;
+	list-style-image: none;
+	list-style-type: none;
 }

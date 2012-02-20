@@ -7,8 +7,6 @@
             <div class='span4'>
               <h4>Product</h4>
                 Create your own mobile website in a few moments with the Mobile Loft dashboard.  Start your <a href='/sign-up'>risk free 30-day trial</a> in seconds.
-            </div>
-            <div class='span4'>
               <h4>Company</h4>
                 <ul>
                   <li>Mobile Loft</li>
@@ -16,8 +14,6 @@
                   <li>Columbus, OH 43214</li>
                   <li>support@mobile-loft.com</li>
                 </ul>
-            </div>
-            <div class='span4'>
               <h4>Support</h4>
                 <ul>
                   <li><a href='http://mobile-loft.assistly.com/'>Support Forum</a></li>
@@ -26,14 +22,8 @@
                   <li><a href='/tos/'>Terms of Service</a></li>
                 </ul>
             </div>
-            <div class='span4'>
-              <h4>Learn More:</h4>
-              <!--
-                <ul>
-                  <li><a href='/what-is-a-mobile-website/'>What is a Mobile Website?</a></li>
-                  <li><a href='/why-do-i-need-a-mobile-website/'>Why do I need a mobile website?</a></li>
-                </ul>
-              -->
+            <div class='span8'>
+              <h4>Mobile Website Resources:</h4>
               <?php $args = array(
                 'depth'        => 0,
                 'show_date'    => '',
@@ -52,6 +42,28 @@
                 wp_list_pages( $args );
 
                 ?>
+            </div>
+            <div class='span4'>
+              <h4>Get in Touch</h4>
+              <ul class='socialbuttons'>
+                <li id='twitter'><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.sproutmobi.com/" data-text="Make a mobile website in 5 minutes with @SproutMobi" data-size="large">Tweet</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+                <li id='googleplus'>
+                <!-- Place this tag in your head or just before your close body tag -->
+                <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {parsetags: 'explicit'}
+</script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-href="http://www.sproutmobi.com"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">gapi.plusone.go();</script></li>
+                <li id='facebook'><a name="fb_share"></a> 
+<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
+        type="text/javascript">
+</script></li>
+              </ul>
             </div>
           </div>
         </div>
