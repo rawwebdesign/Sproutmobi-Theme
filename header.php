@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" href="/wp-content/themes/mobileloft/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/mobileloft/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/mobileloft/images/apple-touch-icon-114x114.png">
-    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:500,600|Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
 
         <link rel='stylesheet' id='nivoStyleSheet-css'  href='/wp-content/plugins/nivo-slider-light/nivo-slider.css?ver=3.2.1' type='text/css' media='all' />

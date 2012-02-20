@@ -6,6 +6,12 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -73,8 +79,8 @@ div.mlalert {
 }
 
 h2 {
-	font: 36px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	padding-bottom: 10px;
+	font: 30px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 div.row.minheightfeature p {
@@ -210,28 +216,28 @@ ul.nav {
 
 div.container div.row p, div.container div.row ul li {
 	font-style: normal;
-	line-height: 140%;
-	font-size: 20px;
+	line-height: 120%;
+	font-size: 15px;
 	font-variant: normal;
 	margin-bottom: 20px;
+	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+body {
+	color: #454545;
 }
 
 div.container div.row ul li {
 	margin-bottom: 0px;
 }
 
-h2.entry-title {
-	margin-bottom: 20px;
-	font: 42px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+ul li{
+	color: #454545;
 }
 
-div.entry-content p {
-	font-style: normal;
-	line-height: 140%;
-	font-size: 20px;
-	font-variant: normal;
+h2.entry-title {
 	margin-bottom: 20px;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 32px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 div.fullw.lightgrey {
@@ -375,5 +381,23 @@ div.quotey h3 {
 	font: 46px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
+div#sidebar {
+	float: right;
+}
 
+div.container.index {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
+div#sidebar div.title {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.2em;
+	line-height: 120%;
+	padding-bottom: 5px;
+}
+
+.widget {
+	padding-bottom: 20px;
+}
