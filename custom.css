@@ -16,6 +16,12 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -159,7 +165,6 @@ body {
 
 div#topline {
 	font-size: 36px;
-	text-align: center;
 	line-height: 100%;
 	text-transform: uppercase;
 	color: #fefffe;
@@ -170,21 +175,16 @@ span.special {
 }
 
 div#bottomline {
-	font-size: 100px;
-	text-align: center;
-	min-height: 80px;
-	line-height: 100%;
+	font-size: 123px;
+	line-height: 80%;
 	text-transform: uppercase;
 	letter-spacing: -2;
+	padding-bottom: 40px;
 }
 
-a.brand {
-	text-transform: lowercase;
-	font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
 
 #post-1 div.container div.row div.span8 h2 {
-	font: 30px/200% 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 30px/200%;
 	text-align: left;
 }
 
@@ -224,7 +224,36 @@ div.container div.row p, div.container div.row ul li {
 	font-size: 15px;
 	font-variant: normal;
 	margin-bottom: 20px;
-	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#leftsidethis a.btn.primary.large {
+	font-style: normal;
+	line-height: 120%;
+	font-size: 40px;
+	font-variant: normal;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#reasonswhy ul, #reasonswhy ul li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	color: #fff;
+	padding-right: 10px;
+}
+
+div#reasonswhy {
+	width: 300px;
+	
+}
+
+#leftsidethis p {
+	margin-bottom: 0;
+	font-size: 24px;
+	max-width: 520px;
 }
 
 body {
@@ -382,7 +411,7 @@ div.quotey h3 {
 	font-size: 30px;
 	font-style: normal;
 	font-weight: normal;
-	font: 46px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 50px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 div#sidebar {
@@ -415,4 +444,9 @@ div.textwidget ul.sharebuttons, div.textwidget ul.sharebuttons li {
 div.span12 ul.sharebuttons li {
 	display: inline;
 	
+}
+
+div.green-hero div.container div.row div.span16 {
+	float: left;
+	width: 650px;
 }

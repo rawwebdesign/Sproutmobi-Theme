@@ -13,11 +13,31 @@ Template Name: Home Page Sales Page
         <div id='handofgod'>
           <img src='http://www.sproutmobi.com/wp-content/uploads/2012/02/cutouthand.png'>
         </div>
-        <div='leftsidethis'>
-          <div id='topline'>The <span class='special'>All-In-One</span> System for Creating <span class='special'>Simply Awesome</span></div>
-          <div id='bottomline'>Mobile Websites</div>
-          <!-- <p>The quick & easy way to create a mobile-optimized website.  Expand your website's reach and start embracing your mobile customers!</p> -->
-        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='span16'>
+              <div id='leftsidethis'>
+                <div id='topline'>
+                  The <span class='special'>All-In-One</span> System for Creating <span class='special'>Simply Awesome</span>
+                </div>
+                <div id='bottomline'>
+                  Mobile Websites
+                </div>
+                <p>Make your website look great on iphones, android, ipads, blackberry, and any other phone or tablet device!</p>
+                <a href='/sign-up'class="btn primary large">Get Started</a>
+                <div id='reasonswhy'>
+                  <ul>
+                    <li>No Credit Card Required.</li>
+                    <li>100% Satisfaction Guarantee</li>
+                    <li>No Contract.</li> 
+                    <li>No Sign-Up Fees.</li>
+                    <li>No Hidden Fees.</li>
+                  </ul>
+                </div><!-- reasonswhy -->
+              </div><!-- end of leftside -->
+            </div><!-- end of span -->
+          </div><!-- end of row-->
+        </div><!-- end of container -->
       </div>
     
     
