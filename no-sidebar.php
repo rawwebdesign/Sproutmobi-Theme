@@ -8,18 +8,8 @@ Template Name: No Sidebar
 
   <?php while ( have_posts() ) : the_post() ?>
     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-          <div class="green-hero">
-            <div id='topline'><?php the_field('top_line'); ?></div>
-            <div id='bottomline'><?php the_field('bottom_line'); ?></div>
-          </div>
-        
-
-        <div class='fullwidth greybg'>
-              <p>Build a Free Mobile Website in Less than 30 Seconds: <a href='http://srv.mobile-loft.com/register.php' class="btn primary large">Get Started</a></p>
-        </div>
       
-      <div class='container'>
+      <div class='container index'>
 
       <div class='row'>
         <div class='span16'>
