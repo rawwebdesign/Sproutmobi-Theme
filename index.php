@@ -25,6 +25,16 @@
               <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                 <?php the_title('<h2 class="entry-title"><a href="' . get_permalink() . '" title="' . the_title_attribute('echo=0') . '" rel="bookmark">', '</a></h2>'); ?>
+                <ul class="sharebuttons">
+                  <li class='facebook'><a name="fb_share"></a> 
+                  <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" 
+                          type="text/javascript">
+                  </script></li>
+                  <li class='twitter'><a href="https://twitter.com/share" class="twitter-share-button" data-via="sproutmobi" data-size="large">Tweet</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+                  <li class='googleplus'><!-- Place this tag where you want the +1 button to render -->
+                  <div class="g-plusone"></div></li>
+                </ul>
 
                 <p class="byline">
                   <span class="author vcard"><?php the_author_posts_link(); ?></span> <span class="sep">|</span> 
