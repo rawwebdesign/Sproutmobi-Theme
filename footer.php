@@ -100,6 +100,28 @@
       <!-- this is the modal box js -->
       <script type='text/javascript' src='/wp-content/themes/mobileloft/js/bootstrap-modal.js'></script>
 
+
+      <!-- form clear jquery -->
+      <script type='text/javascript'>
+        $.fn.clearOnFocus = function(){
+         
+            /* No attribution required,
+               don't use excessively */
+         
+            return this.focus(function(){
+                var v = $(this).val();
+                $(this).val( v === this.defaultValue ? '' : v );
+            }).blur(function(){
+                var v = $(this).val();
+                $(this).val( v.match(/^\s+$|^$/) ? this.defaultValue : v );
+            });
+         
+        };
+        $('input').clearOnFocus();
+      </script>
+
+
+
   <?php wp_footer(); ?>
   </body>
 </html>

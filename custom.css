@@ -22,6 +22,16 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -84,13 +94,12 @@ div.mlalert {
 	color: #424242;
 	padding: 20px;
 	border-bottom: 1px solid #ddd;
-	font: 20px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-align: left;
 }
 
 h2 {
 	padding-bottom: 10px;
-	font: 30px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 30px;
 }
 
 div.row.minheightfeature p {
@@ -123,7 +132,7 @@ div.row.minheightfeature p {
 }
 
 #post-20 div.container.greenbg div.row div.span8 h3 {
-	font: 29px 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 29px;
 	color: #fff;
 	text-shadow: #000 1px 1px 4px;
 	margin-top: 20px;
@@ -146,8 +155,7 @@ div.green-hero {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #fff;
-	font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-		text-shadow: #555 1px 1px 1px;
+	text-shadow: #555 1px 1px 1px;
 }
 
 .post-170 div.green-hero{
@@ -156,18 +164,30 @@ div.green-hero {
 
 body {
 	padding-top: 45px;
+	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#leftsidethis p a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#leftsidethis p a:hover {
+	color: #f7941d;
+	text-decoration: underline;
+}
+
+div#leftsidethis {
+	margin-left: 20px;
 }
 
 
-
-
-
-
 div#topline {
-	font-size: 36px;
-	line-height: 100%;
 	text-transform: uppercase;
 	color: #fefffe;
+	font: normal 58px/100% "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: -4px;
+	padding-bottom: 20px;
 }
 
 span.special {
@@ -175,11 +195,10 @@ span.special {
 }
 
 div#bottomline {
-	font-size: 123px;
+	font-size: 30px;
 	line-height: 80%;
-	text-transform: uppercase;
 	letter-spacing: -2;
-	padding-bottom: 40px;
+	display: none;
 }
 
 
@@ -224,7 +243,6 @@ div.container div.row p, div.container div.row ul li {
 	font-size: 15px;
 	font-variant: normal;
 	margin-bottom: 20px;
-	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #leftsidethis a.btn.primary.large {
@@ -234,7 +252,6 @@ div.container div.row p, div.container div.row ul li {
 	font-variant: normal;
 	margin-bottom: 5px;
 	margin-top: 30px;
-	font-family:"Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #reasonswhy ul, #reasonswhy ul li {
@@ -253,7 +270,7 @@ div#reasonswhy {
 #leftsidethis p {
 	margin-bottom: 0;
 	font-size: 24px;
-	max-width: 520px;
+	max-width: 680px;
 }
 
 body {
@@ -270,7 +287,7 @@ ul li{
 
 h2.entry-title {
 	margin-bottom: 20px;
-	font: 32px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 32px;
 }
 
 div.fullw.lightgrey {
@@ -424,21 +441,44 @@ div.container.index {
 }
 
 div#sidebar div.title {
-	font-weight: normal;
-	font-style: normal;
 	font-size: 1.2em;
 	line-height: 120%;
 	padding-bottom: 5px;
+}
+
+#text-3 div.textwidget p {
+	text-align: center;
+	margin-bottom: 15px;
 }
 
 .widget {
 	padding-bottom: 20px;
 }
 
+div#text-3.widget.widget_text {
+background-color:#f2faff;border:1px solid #e3f3fd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin-bottom:20px;padding:10px 10px;}
+
+div#text-3.widget.widget_text div.title{
+	font-weight: bold;
+	text-align: center;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+
 div.textwidget ul.sharebuttons, div.textwidget ul.sharebuttons li {
 	padding-bottom: 5px;
 	list-style-image: none;
 	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+div.container.index div.row div.span12 {
+	width: 650px;
 }
 
 div.span12 ul.sharebuttons li {
@@ -449,4 +489,35 @@ div.span12 ul.sharebuttons li {
 div.green-hero div.container div.row div.span16 {
 	float: left;
 	width: 650px;
+}
+
+
+
+#testyoursites h2 {
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 30px;
+}
+
+span#url, span#email {
+	display: block;
+	padding-left: 7px;
+	font-size: 17px;
+}
+
+#testyoursites form input {
+	margin-bottom: 5px;
+	height: 40px;
+	width: 440px;
+	margin-top:10px;
+	font: normal normal 18px "Courier New", Courier, mono;
+}
+
+#testyoursites form input.btn.primary.large {
+	font-weight: normal;
+	font-style: normal;
+	width: 310px;
+	font: 20px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }

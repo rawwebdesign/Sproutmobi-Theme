@@ -15,15 +15,26 @@ Template Name: Home Page Sales Page
         </div>
         <div class='container'>
           <div class='row'>
-            <div class='span16'>
+            
               <div id='leftsidethis'>
                 <div id='topline'>
-                  The <span class='special'>All-In-One</span> System for Creating <span class='special'>Simply Awesome</span>
+                  Your Website, Mobilized. 
                 </div>
-                <div id='bottomline'>
-                  Mobile Websites
+                <p>Create a mobile version of your website that works on mobile phones and tablets with our <a href='/sign-up/'>DIY Mobile Builder</a> or <a href='/pricing-and-plans/'>let us build</a> the site for you. SproutMobi gives your website legs.</p>
+                
+                <div id='testyoursites'>
+                  <h2>Test Your Website on Mobile Now:</h2>
+                <form name="input" action="mobiletest.php" method="get">
+                <input type="text" name="url" value="Your Website URL"/>
+                <span id='url'>The URL you want to test, starting with http://</span>
+                <input type="text" name="emailaddy" value="your@email.com"/>
+                <span id='email'>Optional & We never spam.</span>
+                <input class="btn primary large" type="submit" value="Test Website" />
+                </form>
                 </div>
-                <p>Make your website look great on iphones, android, ipads, blackberry, and any other phone or tablet device!</p>
+
+
+                <!--
                 <a href='/sign-up'class="btn primary large">Get Started</a>
                 <div id='reasonswhy'>
                   <ul>
@@ -33,9 +44,12 @@ Template Name: Home Page Sales Page
                     <li>No Sign-Up Fees.</li>
                     <li>No Hidden Fees.</li>
                   </ul>
-                </div><!-- reasonswhy -->
+                </div>
+                -->
+
+
               </div><!-- end of leftside -->
-            </div><!-- end of span -->
+            
           </div><!-- end of row-->
         </div><!-- end of container -->
       </div>

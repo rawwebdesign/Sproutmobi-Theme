@@ -86,10 +86,10 @@
               echo " class='activepage' ";
             }
             ?>><a href="/blog/">Blog</a></li>
-            <li <?php if(is_page( 'tour' )) {
+            <li <?php if(is_page( 'features' )) {
               echo " class='activepage' ";
             }
-            ?>><a href="/tour/">Take a Tour</a></li>
+            ?>><a href="/features/">Features</a></li>
             <li <?php if(is_page( 'customers' )){
               echo " class='activepage' ";
             }
