@@ -55,6 +55,10 @@
 
         </script>
 
+        <?php if ( is_page_template( "mobile-emulator-template.php") ) {?>
+          <script type="text/javascript" src="http://transmog.net/script/embed.js"></script>
+        <?php }?>
+
   </head>
 
   <body>
@@ -81,27 +85,27 @@
             <li <?php if(is_page( 'about-sproutmobi' )){
               echo " class='activepage' ";
             }
-            ?>><a href="/about/">About</a></li>
+            ?>><a href="/about.php">About</a></li>
             <li <?php if( is_home() || (is_single())){
               echo " class='activepage' ";
             }
-            ?>><a href="/blog/">Blog</a></li>
+            ?>><a href="/blog.php">Blog</a></li>
             <li <?php if(is_page( 'features' )) {
               echo " class='activepage' ";
             }
-            ?>><a href="/features/">Features</a></li>
+            ?>><a href="/features.php">Features</a></li>
             <li <?php if(is_page( 'customers' )){
               echo " class='activepage' ";
             }
-            ?>><a href="/customers/">Customers</a></li>
+            ?>><a href="/customers.php">Customers</a></li>
             <li <?php if(is_page( 'pricing-and-plans' )){
               echo " class='activepage' ";
             }
-            ?>><a href="/pricing-and-plans/">Pricing</a></li>
+            ?>><a href="/pricing-and-plans.php">Pricing</a></li>
             <li <?php if(is_page( 'support' )){
               echo " class='activepage' ";
             }
-            ?>><a href="/support/">Support</a></li>
+            ?>><a href="/support.php">Support</a></li>
             <li class='navbutton'><a href='/login'>Login</a></li>
           </ul>
         </div>

@@ -32,6 +32,8 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -520,4 +522,17 @@ span#url, span#email {
 	font-style: normal;
 	width: 310px;
 	font: 20px "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#transmog_167 {
+	float: right;
+	padding-left: 20px;
+}
+
+div#comments {
+clear: both;	
+}
+
+div.leftsideme {
+	
 }
