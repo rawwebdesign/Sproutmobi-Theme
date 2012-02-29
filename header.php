@@ -106,7 +106,7 @@
               echo " class='activepage' ";
             }
             ?>><a href="/support.php">Support</a></li>
-            <li class='navbutton'><a href='/login'>Login</a></li>
+            <li class='navbutton'><a href='/login.php'>Login</a></li>
           </ul>
         </div>
       </div>

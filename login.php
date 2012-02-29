@@ -50,7 +50,7 @@ Template Name: Login Page
             </div><!-- /clearfix -->
             <div class="actions">
             <input type="submit" name="Register" class="btn primary" value="Login">
-            New user? <a href='/sign-up/'>Start free trial-></a>
+            New user? <a href='/sign-up.php'>Start free trial-></a>
             </div>
            </form>
 

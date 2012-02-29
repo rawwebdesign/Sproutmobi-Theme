@@ -26,7 +26,7 @@ else {
         <div class='span16'>
    
           <div class="entry-content">
-            <h1><?php echo $custurl ?> on an iPhone:</h1>
+            <h1 class='centered'>Mobile Test Results for <?php echo $custurl ?></h1>
             <div id="transmog_167">
               <script type="text/javascript">
                  var transmog_167 = new TRANSMOG();
@@ -35,7 +35,7 @@ else {
                     container_id: "transmog_167",
                   skin: "iphone4",
                   url: "<?php echo $custurl ?>",
-                  display_url: true,
+                  display_url: false,
                   background_color: "#FFFFFF",
                   text_color: "#000000",
                   scrollbar_color: "#CCCCCC",
@@ -44,8 +44,17 @@ else {
             </div>
 
             <div class='leftsideme'>
-              <p>How does <?php echo $custurl ?> look on an iphone?  Does it load fast?  Is it sized right for mobile users?</p>
-              
+              <h3>Potential Website Problems</h3>
+              <ul>
+                <li>How does <?php echo $custurl ?> look on the iphone?</li>  
+                <li>Does the website load fast?  Consider that mobile phones will take much longer to load than on a computer.</li>  
+                <li>Is text big enough to read?</li>
+                <li>Are buttons and navigation large enough to use?</li>
+              </ul>
+              <h3>Improve Your Mobile Score!</h3>
+                <p><strong>Make a dedicated mobile website for <?php echo $custurl ?> in as little as twenty minutes.</strong></p>  
+                <p>Try the <a href='http://www.sproutmobi.com/sign-up.php'>DIY Builder free for 30 days</a> or <a href='http://www.sproutmobi.com/pricing-and-plans.php'>let us build your mobile site for you</a>!</p>
+                <a href='http://www.sproutmobi.com/sign-up.php' class="btn primary large">Make <?php echo $custurl ?> Mobile</a>
             </div>
 
 

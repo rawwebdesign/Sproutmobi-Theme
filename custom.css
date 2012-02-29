@@ -34,6 +34,8 @@
 
 /* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
 
+/* @override http://www.sproutmobi.com/wp-content/themes/mobileloft/custom.css */
+
 #handofgod img {
 	float: right;
 }
@@ -535,4 +537,11 @@ clear: both;
 
 div.leftsideme {
 	
+}
+
+h1.centered {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 36px;
+	letter-spacing: -1px;
 }

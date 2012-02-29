@@ -20,6 +20,7 @@
                   <li><a href='http://mobile-loft.assistly.com/customer/portal/questions/new'>Ask a Question</a></li>
                   <li><a href='http://mobile-loft.assistly.com/customer/portal/questions/new'>Get Support</a></li>
                   <li><a href='/tos/'>Terms of Service</a></li>
+                  <li><a href='http://www.sproutmobi.com/sitemap_index.xml'>Sitemap</a>
                 </ul>
             </div>
             <div class='span8'>

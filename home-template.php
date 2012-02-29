@@ -20,7 +20,7 @@ Template Name: Home Page Sales Page
                 <div id='topline'>
                   Your Website, Mobilized. 
                 </div>
-                <p>Create a mobile version of your website that works on mobile phones and tablets with our <a href='/sign-up/'>DIY Mobile Builder</a> or <a href='/pricing-and-plans/'>let us build</a> the site for you. SproutMobi gives your website legs.</p>
+                <p>Create a mobile version of your website that works on mobile phones and tablets with our <a href='/sign-up.php'>DIY Mobile Builder</a> or <a href='/pricing-and-plans.php'>let us build</a> the site for you. SproutMobi gives your website legs.</p>
                 
                 <div id='testyoursites'>
                   <h2>Test Your Website on Mobile Now:</h2>
